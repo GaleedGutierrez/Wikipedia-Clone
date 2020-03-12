@@ -1,0 +1,527 @@
+/* ------------------------------------------ Comienzo parte general */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+main .icon .icon-container img,
+main .lenguage img,
+main .search i,
+footer .more .more-about img,
+footer .more .more-download img,
+footer .more .more-download-app .more-download-app-1,
+footer .more .more-download-app .more-download-app-2,
+footer .column2 .column2-container .column2-container-commons img,
+footer .column2 .column2-container .column2-container-wikilibros img,
+footer .column2 .column2-container .column2-container-wikiversidad img,
+footer .column2 .column2-container .column2-container-wikisouce img,
+footer .column3 .column3-container-wikiviajes img,
+footer .column3 .column3-container .column3-container-wikiquote img,
+footer .column3 .column3-container .column3-container-wikispecies img,
+footer .column4 .column4-container-wickcionario img,
+footer .column4 .column4-container-wikidata img,
+footer .column4 .column4-container-mediawiki img,
+footer .column4 .column4-container-metawiki img
+{
+  background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-9ba8de1b.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* ----------------------------------------- Fin de parte general */
+
+/*------------------------------------------ comienzo del titulo */
+
+main .icon {
+  margin: 40px auto 5px;
+  width: 270px;
+  align-items: center;
+}
+main .icon .icon-container img {
+  display: block;
+  width: 176px;
+  height: 32px;
+  margin: 0 auto;
+  background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-9ba8de1b.svg");
+  background-repeat: no-repeat;
+
+  background-position: 0 -254px;
+}
+main .icon .icon-container p {
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Linux Libertine", Georgia, Times, serif;
+  font-size: 15px;
+  margin: 10px 0 0 0;
+}
+.icon-center-logo {
+  width: 200px;
+  height: 183px;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 136px;
+}
+/* ----------------------------------------- Fin del titulo */
+
+/* ----------------------------------------- Comienzo del centro */
+main .center {
+  width: 546px;
+  height: 325px;
+  margin: 25px auto 0;
+}
+main .center a {
+  color: #3366cc;
+  font-size: 16px;
+  font-weight: bold;
+}
+main .center p {
+  color: #54595d;
+  font-size: 12px;
+  line-height: 2;
+}
+main .center {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png");
+  background-size: 200px 183px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  position: relative;
+}
+main .center .center-text-spanish,
+main .center .center-text-english,
+main .center .center-text-日本語,
+main .center .center-text-Deutsch,
+main .center .center-text-Русский,
+main .center .center-text-Français,
+main .center .center-text-Italiano,
+main .center .center-text-中文,
+main .center .center-text-Português,
+main .center .center-text-Polski {
+  width: 156px;
+  height: 45px;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+}
+main .center .center-text-spanish a:hover,
+main .center .center-text-english a:hover,
+main .center .center-text-日本語 a:hover,
+main .center .center-text-Deutsch a:hover,
+main .center .center-text-Русский a:hover,
+main .center .center-text-Français a:hover,
+main .center .center-text-Italiano a:hover,
+main .center .center-text-中文 a:hover,
+main .center .center-text-Português a:hover,
+main .center .center-text-Polski a:hover {
+  text-decoration: underline;
+}
+main .center .center-text-日本語 a,
+main .center .center-text-中文 a {
+  font-weight: 900;
+}
+main .center .center-text-spanish {
+  top: 0;
+  right: 60%;
+}
+main .center .center-text-english {
+  top: 0;
+  left: 60%;
+}
+main .center .center-text-日本語 {
+  top: 20%;
+  right: 70%;
+}
+main .center .center-text-Deutsch {
+  top: 20%;
+  left: 70%;
+}
+main .center .center-text-Русский {
+  top: 40%;
+  right: 72;
+}
+main .center .center-text-Français {
+  top: 40%;
+  left: 72%;
+}
+main .center .center-text-Italiano {
+  top: 60%;
+  right: 70%;
+}
+main .center .center-text-中文 {
+  top: 60%;
+  left: 70%;
+}
+main .center .center-text-Português {
+  top: 80%;
+  right: 60%;
+}
+main .center .center-text-Polski {
+  top: 80%;
+  left: 60%;
+}
+/* ----------------------------------------- Fin del centro */
+
+/* ----------------------------------------- Comeinzo de barra de busqueda */
+main .search {
+  width: 540px;
+  height: 61.59px;
+  margin: 4px auto 19.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .search .search-container {
+  display: inline-block;
+  justify-content: center;
+  word-spacing: -29px;
+}
+main .search .search-container .search-bar {
+  box-sizing: border-box;
+  width: 394.19px;
+  height: 42px;
+  border: 1px solid #a2a9b1;
+  display: inline-block;
+  padding: 8px 64px 8px 8px;
+  position: relative;
+  border-radius: 2px 0 0 2px;
+}
+main .search .search-container .search-bar:focus {
+  border-color: #36c;
+  box-shadow: inset 0 0 0 1px #36c;
+  outline: 0;
+}
+main .search .search-container .search-bar:hover {
+  border-color: #72777d;
+}
+main .search h5 {
+  display: inline-block;
+  margin: 0;
+  right: 90px;
+  position: relative;
+  cursor: pointer;
+  font-weight: initial;
+}
+main .search button {
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  min-height: 19.2px;
+  height: 42px;
+  min-width: 16px;
+  border: 1px solid #a2a9b1;
+  background-color: #36c;
+  border-color: #36c;
+  color: #fff;
+  margin: 0;
+  border-radius: 0 2px 2px 0;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+main .search button:hover {
+  background: #447ff5;
+  border-color: #447ff5;
+}
+main .search i {
+  background-position: 0 -669px;
+  width: 22px;
+  height: 22px;
+  text-indent: -99990px;
+}
+/* ----------------------------------------- Fin de barra de busqueda */
+
+/* ----------------------------------------- Comienzo de barra de idiomas */
+main .lenguage {
+  text-align: center;
+  margin-bottom: 50px;
+}
+main .lenguage button {
+  width: 245.09px;
+  height: 32.78px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 6.4px 12.8px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  z-index: 1;
+  position: relative;
+  outline: #fff solid 16px;
+}
+main .lenguage button:hover {
+  background-color: #fff;
+  border-color: #a2a9b1;
+}
+main .lenguage img {
+  width: 25px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 0 -691px;
+  display: inline-block;
+}
+main .lenguage span {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0 6.4px;
+  font-size: 13px;
+  color: #36c;
+  font-weight: 400;
+  line-height: 1;
+}
+main .lenguage .line {
+  background-color: #c8ccd1;
+  width: 80%;
+  height: 1px;
+  position: relative;
+  max-width: 460px;
+  margin: 0 auto;
+  display: block;
+  margin: -16px auto 16px;
+}
+/* ------------------------------------------ Fin de barras de idiomas */
+
+/* ------------------------------------------  Comienzo del footer */
+hr {
+  border: 0;
+  margin: 2.6px 13px;
+  clear: both;
+  height: 0;
+  border-bottom: 1px solid #c8ccd1;
+  box-sizing: content-box;
+}
+footer .footer-column {
+  display: grid;
+  max-width: 100%;
+  height: 418px;
+  bottom: 0;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  padding: 41.6px 12.8px 12.8px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+/* --------------Comienzo de first column  */
+footer .more .more-about {
+  position: relative;
+  width: 350px;
+  height: 84px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+footer .more .more-about p {
+  position: relative;
+  color: #54595d;
+  padding: 0 20px 0 60px;
+  margin: 0 auto;
+}
+footer .more .more-about img {
+  width: 42px;
+  height: 42px;
+  background-position: 0 -212px;
+  position: absolute;
+  left: 8px;
+  margin: 0 auto;
+}
+footer .more .more-download {
+  position: relative;
+  margin-bottom: 32px;
+  width: 350px;
+  height: 185px;
+  margin: 0 auto;
+  background-color: #54595d05;
+  padding: 8px 0 8px;
+}
+
+footer .more .more-download p {
+  position: relative;
+  color: #54595d;
+  padding: 0 20px 0 60px;
+}
+footer .more .more-download .more-download-wiki-text {
+  margin: 13px 0;
+}
+footer .more .more-download-icon img {
+  background-position: 0 -709px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 8px;
+}
+footer .more .more-download-app {
+  margin: 0 auto;
+  width: 240px;
+}
+footer .more .more-download-app .more-download-app-1 {
+  background-position: 0 -535px;
+  width: 124px;
+  height: 38px;
+  cursor: pointer;
+}
+footer .more .more-download-app .more-download-app-2 {
+  background-position: 0 -573px;
+  width: 110px;
+  height: 38px;
+  cursor: pointer;
+}
+/* -------------- Fin de la first column */
+
+/* --------------  Comienzo columns general */
+footer .more,
+footer .column2,
+footer .column3,
+footer .column4 {
+  margin-left: 30px;
+}
+footer .column2 p,
+footer .column3 p,
+footer .column4 p {
+  padding: 0 0px 0 52px;
+  color: #54595d;
+  font-size: 12px;
+  display: block;
+}
+footer .column2 a,
+footer .column3 a,
+footer .column4 a {
+  color: #36c;
+  font-size: 14px;
+  padding: 0 0px 0 52px;
+}
+footer .column2-container-commons,
+footer .column2-container-wikilibros,
+footer .column2-container-wikiversidad,
+footer .column2-container-wikisouce,
+footer .column3-container-wikiviajes,
+footer .column3-container-wikinoticias,
+footer .column3-container-wikiquote,
+footer .column3-container-wikispecies,
+footer .column4-container-wickcionario,
+footer .column4-container-wikidata,
+footer .column4-container-mediawiki,
+footer .column4-container-metawiki {
+  position: relative;
+  display: grid;
+  align-items: center;
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+footer #white-text {
+  color: white;
+  font-size: 12px;
+}
+/* -------------- Fin de column genenal */
+
+/* -------------- Comienzo de second column */
+
+footer .column2 .column2-container-commons img {
+  background-position: 0 0;
+  width: 47px;
+  height: 47px;
+  position: absolute;
+}
+footer .column2 .column2-container-wikilibros img {
+  background-position: 0 -126px;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+}
+footer .column2 .column2-container-wikiversidad img {
+  width: 43px;
+  height: 37px;
+  background-position: 0 -409px;
+  position: absolute;
+}
+footer .column2-container .column2-container-wikisouce img {
+  width: 39px;
+  height: 39px;
+  background-position: 0 -328px;
+  position: absolute;
+}
+/* -------------- Fin de second column */
+
+/* -------------- Comienzo de third column */
+footer .column3 .column3-container-wikiviajes img {
+  background-position: 0 -446px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+footer .column3 .column3-container-wikinoticias img {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/759px-Wikinews-logo.svg.png");
+  background-size: 47px 26px;
+  position: absolute;
+  width: 47px;
+  height: 26px;
+}
+footer .column3 .column3-container-wikiquote img {
+  background-position: 0 -286px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+}
+footer .column3 .column3-container-wikispecies img {
+  background-position: 0 -367px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+}
+/* -------------- Fin de third column */
+
+/* -------------- Comienzo de fourth column */
+footer .column4 .column4-container-wickcionario img {
+  background-position: 0 -482px;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+}
+footer .column4 .column4-container-wikidata img {
+  background-position: 0 -163px;
+  width: 49px;
+  height: 49px; 
+  position:absolute;
+}
+footer .column4 .column4-container-mediawiki img {
+  background-position: 0 -47px;
+  width: 42px;
+  height: 42px;
+  position:absolute;
+}
+footer .column4 .column4-container-metawiki img {
+  background-position: 0 -89px;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+}
+/* -------------- Fin de fourth column */
+
+/* -------------- Comienzo de license */
+footer .license a {
+  color: #36c;
+}
+footer .license a:hover {
+  text-decoration: underline;
+}
+footer .license {
+  margin: 0;
+  color: #54595d;
+  text-align: center;
+  height: 30px;
+  align-items: center;
+}
+footer .license small {
+  font-size: 12px;
+  align-items: center;
+}
+/* -------------- Fin de license */
+/* ------------------------------------------ Fin del footer */
